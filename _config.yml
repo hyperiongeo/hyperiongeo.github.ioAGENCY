@@ -13,25 +13,15 @@ people:
 - name: Corey Hooge
   pic: 1
   position: Senior Consulting Geophysicist
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  social: 
+  - title: github
+    url: http://github.com/hyperiongeo
+  - title: linkedin
+    url: https://www.linkedin.com/in/chooge/
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: github
-    url: http://github.com/hyperiongeo
+
 
 # Postal address (add as many lines as necessary)
 address:
