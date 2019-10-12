@@ -2,7 +2,7 @@
 title: RQA
 subtitle: Rocky Physics Cross Plotting
 layout: default
-modal-id: 6
+modal-id: 1
 date: 2018-06-01
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
