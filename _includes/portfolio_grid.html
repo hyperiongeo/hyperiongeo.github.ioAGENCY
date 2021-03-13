@@ -10,7 +10,7 @@
             <div class="row">
             {% for project in site.projects %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ project.modal-id }}" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal{{ projects.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -19,8 +19,8 @@
                         <img src="img/portfolio/{{ project.thumbnail }}" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>{{ project.title }}</h4>
-                        <p class="text-muted">{{ project.subtitle }}</p>
+                        <h4>{{ projects.title }}</h4>
+                        <p class="text-muted">{{ projects.subtitle }}</p>
                     </div>
                 </div>
             {% endfor %}
